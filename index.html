@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="logo-texto">
+        <p>BSC Brazil Portal</p>
+    </div>  
+     <div class = "menu">
+         <ul>
+            <li><a href="#"onclick="limpa()">Home</a></ln>
+            <li><a href="#"onclick="Carrega_menu_crud()">Teste CRUD</a></ln>
+            <li><a href="#"onclick="carrega_menu_ferramentas()">Ferramentas</a></ln>
+            <li><a href="#"onclick="limpa()">Documentação de Processos</a></ln>
+         </ul>
+     </div>
+     </header>
+     
+     <div class="divisao_prin">
+
+</div>
+     <div id="tela_render" class="tela_render">
+        
+     </div>
+
+     <div  class="rodape">'BSC BR Service & Quality    '      </div>
+    
+     <script src = "crudFirebase.js"></script>
+     <script src = "script.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+     <script type="module">
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyCdWULmqVd1pjm9t_IrAdgxspjckDBrwjU",
+          authDomain: "tuturial-noobs.firebaseapp.com",
+          projectId: "tuturial-noobs",
+          storageBucket: "tuturial-noobs.appspot.com",
+          messagingSenderId: "1070598032484",
+          appId: "1:1070598032484:web:a7ce6e9161f322b9466371"
+        };
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+
+
+      </script>
+
+</body>
+</html>
