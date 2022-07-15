@@ -10,14 +10,11 @@
 <body>
     <header>
     <div class="logo-texto">
-        <p>BSC Brazil Portal</p>
+        <img src="img/logo_bsc.png" width="65px" height="65px" id='logo' onclick="home()">
     </div>  
      <div class = "menu">
          <ul>
-            <li><a href="#"onclick="limpa()">Home</a></ln>
-            <li><a href="#"onclick="Carrega_menu_crud()">Teste CRUD</a></ln>
             <li><a href="#"onclick="carrega_menu_ferramentas()">Ferramentas</a></ln>
-            <li><a href="#"onclick="limpa()">Documentação de Processos</a></ln>
          </ul>
      </div>
      </header>
@@ -26,10 +23,12 @@
 
 </div>
      <div id="tela_render" class="tela_render">
+
+        <img src="img/fundo_home.png" width="100%" height="657px">
         
      </div>
 
-     <div  class="rodape">'BSC BR Service & Quality    '      </div>
+     <div  class="rodape"><a>BSC BR Service & Quality</a></div>
     
      <script src = "crudFirebase.js"></script>
      <script src = "script.js"></script>

@@ -5,24 +5,28 @@
 }
 
 header{
-    height: 50px;
+    height: 70px;
     background-image: linear-gradient(to right,rgb(255,0,0),rgb(158,28,28));
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
+    box-shadow: inset 0px -1px 5px rgb(255, 255, 255);
+    z-index: 1;
 }
 .logo-texto{
-    width: 300px;
-    margin-left: 20px;
-    font-size: 30px;
-    color: white;
-    vertical-align: middle;
-    text-align: center;
-    
-    
+    width: 65px;
+    margin-left: 57px;
+    height: 70px;
 }
-
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-texto:hover{
+    background-color: rgba(100,100,100,0.8);
+}
 .menu{
     width: 100%;
     
@@ -38,7 +42,7 @@ header{
 }
 .menu li a{
     font-size: 24px;
-    line-height: 50px;
+    line-height: 70px;
     text-decoration: none;
     color: white;
     padding: 0 10px;
@@ -48,6 +52,7 @@ header{
 }
 
 .tela_render{
+    z-index: 0;
     display: flex;
     height: 100%;
     width: 100%;
@@ -57,7 +62,9 @@ header{
 
 .Menu_principal{
     left: 10px; 
+    height: 657px;
     width: 200px;
+    background-image: linear-gradient(to right,rgb(121, 120, 120),rgb(145, 140, 140));
     background-color: rgba(100,100,100,0.8);
 }
 .Menu_principal li{
@@ -81,8 +88,13 @@ header{
     color: rgb(228, 13, 13);
 }
 .tela_sis{
-    height: 800px;
+    height: 657px;
     width: 100%;
+ }
+ #logo_tereza{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 
@@ -92,6 +104,10 @@ header{
     font-size: 24px;
     color:white;
     text-align: right;
+    box-shadow: inset 0px -1px 5px rgb(255, 255, 255);
+}
+.rodape a{
+margin-right: 20px;
 }
 
 
